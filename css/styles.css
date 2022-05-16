@@ -1,0 +1,121 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.menuNavegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+  .menuNavegacion a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: white; }
+
+.colorNav {
+  background-color: black;
+  margin-top: 0.005%; }
+
+.moverNav {
+  position: relative;
+  bottom: 16px; }
+
+.estiloLetraMail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
+
+.moverMail {
+  margin-left: 25%; }
+
+.imgMail {
+  width: 40px;
+  height: 32px; }
+
+.imgFacebook {
+  width: 32px;
+  height: 32px;
+  margin-left: 200px; }
+
+.imgInstagram {
+  width: 32px;
+  height: 32px; }
+
+.ajustarImgCharlas {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  bottom: 26px; }
+
+.primerComponente {
+  background-color: #00cc00;
+  width: 100%;
+  height: 70px; }
+
+/*Aplico Media Queries para ajustar lo responsive en el componente
+donde figuran las redes de SW mas el mail de contacto */
+@media only screen and (max-width: 360px) {
+  .imgFacebook {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px; } }
+
+@media only screen and (max-width: 360px) {
+  .moverMail {
+    margin-left: 1%; } }
+
+@media only screen and (max-width: 375px) {
+  .imgFacebook {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px; } }
+
+@media only screen and (max-width: 375px) {
+  .moverMail {
+    margin-left: 1%; } }
+
+@media only screen and (max-width: 412px) {
+  .imgFacebook {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px; } }
+
+@media only screen and (max-width: 412px) {
+  .moverMail {
+    margin-left: 1%; } }
+
+@media only screen and (max-width: 414px) {
+  .imgFacebook {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px; } }
+
+@media only screen and (max-width: 414px) {
+  .moverMail {
+    margin-left: 1%; } }
+
+@media only screen and (max-width: 540px) {
+  .imgFacebook {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px; } }
+
+@media only screen and (max-width: 540px) {
+  .moverMail {
+    margin-left: 1%; } }
+
+@media only screen and (max-width: 992px) {
+  .menuNavegacionMobileFirst {
+    display: Flex;
+    flex-direction: column;
+    justify-content: space-evenly; } }
+
+@media only screen and (max-width: 1200px) {
+  .menuNavegacionMobileFirst {
+    display: Flex;
+    flex-direction: column;
+    justify-content: space-evenly; } }
